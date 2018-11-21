@@ -15,14 +15,7 @@ int subOperation(int a,int b)
 {
     return a-b;
 }
-int divOperation(int a,int b)
-{
-    return a/b;
-}
-int multOperation(int a,int b)
-{
-    return a*b;
-}
+
 
 void printBinary(string a,int b, int c, int d)
 {
