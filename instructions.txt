@@ -1,9 +1,9 @@
-ADD $t1 , $t2 , 1
-lw $t3 , $t1 (3)
+ADD $t1 , $t3 , $t3
+ADD $t1 , 2 , 1
 and $t3 , $t3 , $t2
 sw  $t2 , (4) $t2
 mult $t1 , $t2 , $t3
-div $t3 , $t3 , $t2
+SUB $t3 , $t2 , $t2
 SUB $t1 , $t2 , $t3
 or $t3 , $t2 , $t1
 shr $t2 , $t3
@@ -12,4 +12,5 @@ incr $t2 , $t3
 decr $t1 , $t2
 xor $t3 , $t1 , $t2
 add $t0 , $t1 , $zero
+SUB $t1 , 3 , $t2
 
